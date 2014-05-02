@@ -5,6 +5,11 @@
         c = 1
         [energy] : MeV
         [length] : fm
+    Base units for macroscopic quantities 
+        [velocity] = c
+        [length] = G*Msun/c**2
+        [mass] = Msun
+        [time] = G*Msun/c**3
 """
 from numpy import pi,log
 
