@@ -63,7 +63,7 @@ Macroscopic constants (gravitational units)
 "density_g" 	mass_g/length_g**3
 "pressure_g" 	density_g*potential_g
 "time_g" 		length_g/clight
-======================================================
+==============  =======================================
 """
 
 from const_def import *
