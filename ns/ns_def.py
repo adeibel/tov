@@ -20,6 +20,7 @@ class ns:
         
 	def _tov_eqns(self):
 
+		# for rootfind 
         tolerance_in_r = 1.0e-4 
         tolerance_in_p = 1.0e-4
         
@@ -27,8 +28,9 @@ class ns:
 		rtol = 1.0e-6
 		atol = 1.0e-7
 
-		core_step = 1.0e4	! cm
-		crust_step = 0.05	! variation in lnP
+		# step sizes
+		core_step = 1.0e4	# cm
+		crust_step = 0.05	# variation in lnP
 	
 		# boundary conditions 
 		T_ePhi = 0.01
