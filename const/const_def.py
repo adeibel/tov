@@ -73,3 +73,9 @@ length_g = Gnewton*mass_g/potential_g
 density_g = mass_g/length_g**3
 pressure_g = density_g*potential_g
 time_g = length_g/clight
+
+# conversion between nuclear and gravitational units
+MeVfm3_to_g = pressure_n / pressure_g ! converts MeV/fm**3 -> grav.
+fm3_to_g = Mneutron *density_n / density_g
+amufm3_to_g = amu *density_n / density_g
+cgseps_to_g = time_g/pressure_g
