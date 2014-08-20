@@ -21,7 +21,11 @@ class ns:
         
 	def tov_eqns(self):
 
+# tov_startup()
+
+        tov_set_microphysics()
         tov_set_integration()
+        
         self.pressure = P_start
         self.grav_potential = Phi_start
         self.temp = T_ePhi
